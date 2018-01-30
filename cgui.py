@@ -31,7 +31,7 @@ def creategui(arglist,clear=False,backbone=False):
     while lool > len(arglist):
         lool = int(input("[?]>"))
         if lool > len(arglist):
-            print("FEHLER: Ungültie eingabe. Erneut versuchen")
+            print("FEHLER: Ungueltie eingabe. Erneut versuchen")
     return lool
     
         
